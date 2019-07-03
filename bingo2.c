@@ -12,7 +12,6 @@ int main(){
         urna[i] = 0;
     }
     while(1){ //laço 
-        //system("cls");
 
         Tabela_print(cartela);//printa tabela
         int ganhou = bingo(cartela);//confere se todos numeros são 0 na tabela
